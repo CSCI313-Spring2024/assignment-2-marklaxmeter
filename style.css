@@ -1,0 +1,64 @@
+.page {
+    padding: 10px;
+}
+.navbar-dark {
+    background-color: #003366 !important; 
+    position: fixed;
+    width: 100%;
+    top: 0px;
+}
+.nav-link:hover {
+    color: cyan; 
+}
+
+.nav-link:focus {
+    color: yellow !important; 
+}
+.content {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin: 20px;
+}
+.content-section {
+    margin: 50px 20px;
+}
+.content-section > article > h2
+{
+    margin-bottom: 15px;
+    margin-left: -15px;
+}
+
+.profile-header {
+    border-radius: 20px;
+    padding: 10px 10px;
+    background-color: rgba(0, 140, 255, 0.2); 
+}
+.profile-pic {
+    border-radius: 50px;
+}
+.schedule > thead > tr > th {
+    background-color: #003366;
+}
+.schedule > tbody > tr > th {
+    background-color: black;
+}
+.schedule > tbody > tr > td:hover {
+    background-color: darkred;
+}
+.flex {
+    display: flex;
+    align-items:center; 
+    justify-content: flex-start; 
+    vertical-align: middle;
+    gap: 20px;
+    height: 100%;
+}
+.flex-item {
+    vertical-align: middle;
+}
+.footer  {
+    bottom: 0px; 
+}
+
+
+
